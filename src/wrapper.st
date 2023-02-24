@@ -6,7 +6,7 @@ NAMESPACE MotorLibrary
             stop    : BOOL;
         END_VAR
        VAR_OUTPUT
-            Inmotion: BOOL; (* fornuftig kommentar *)
+            InMotion: BOOL; (* fornuftig kommentar *)
        END_VAR
 
         VAR
@@ -15,12 +15,12 @@ NAMESPACE MotorLibrary
         
         IF start THEN
             m.Start();
-            Inmotion := TRUE;
+            InMotion := TRUE;
         END_IF;
 
         IF stop THEN
             m.Stop();
-            Inmotion := FALSE;
+            InMotion := FALSE;
         END_IF;
 
     END_FUNCTION_BLOCK
