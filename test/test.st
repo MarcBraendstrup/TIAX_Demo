@@ -18,6 +18,18 @@ NAMESPACE MotorTests
 
             result := testInstance.Start();
 
+            Assert.Equal(actual := result, expected := TRUE);
+        
+        END_METHOD
+
+        {Test}
+        METHOD PUBLIC StopBehaviorTest
+            VAR_TEMP
+                result : BOOL;
+            END_VAR
+
+            result := testInstance.Stop();
+
             Assert.Equal(actual := result, expected := FALSE);
         
         END_METHOD
