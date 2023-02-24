@@ -9,8 +9,8 @@ targets:
   # - plcsim
 
 devDependencies:
-  "@ax/sdk": ^3.0.10
-  "@ax/ax2tia": ^4.3.6
+  "@ax/sdk": ^3.0.11
+  "@ax/ax2tia": ^4.4.16
 
 files:
   - bin
