@@ -9,8 +9,8 @@ targets:
   # - plcsim
 
 devDependencies:
-  "@ax/sdk": ^3.0.12
-  "@ax/ax2tia": ^4.4.16
+  "@ax/sdk": ^3.0.19
+  "@ax/ax2tia": ^4.5.4
 
 files:
   - bin
@@ -34,3 +34,7 @@ scripts:
     - apax build
     - apax export-tialib
     - apax import-tialib
+dependencies:
+  "@ax/simatic-1500-communication": ^2.1.4
+installStrategy: overridable
+apaxVersion: 3.1.0

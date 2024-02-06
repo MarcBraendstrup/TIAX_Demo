@@ -2,13 +2,14 @@ NAMESPACE MotorLibrary
 
     FUNCTION_BLOCK MotorWrapper
         VAR_INPUT
-            start   : BOOL;
+            start   : BOOL; 
             stop    : BOOL;
         END_VAR
        VAR_OUTPUT
             InMotion: BOOL; (* fornuftig kommentar *)
        END_VAR
-
+     
+      
         VAR
             m : Motor;
         END_VAR
@@ -25,4 +26,5 @@ NAMESPACE MotorLibrary
 
     END_FUNCTION_BLOCK
 
+    
 END_NAMESPACE
